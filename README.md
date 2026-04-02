@@ -39,7 +39,7 @@
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --repo <ваш-github-логин>/CODEXFRYER \
   --path . \
-  --name codexfryer
+  --name grill-me
 ```
 
 ### Вариант 2. Через URL
@@ -48,7 +48,7 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --url https://github.com/<ваш-github-логин>/CODEXFRYER \
   --path . \
-  --name codexfryer
+  --name grill-me
 ```
 
 После установки перезапустите Codex, чтобы скилл появился в активном списке.
@@ -57,8 +57,8 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
 
 Примеры триггеров:
 
-- `[$codexfryer](./SKILL.md) Прогриль мою идею: B2B SaaS для автоматизации отчётов.`
-- `Используй codexfryer и пройди со мной архитектуру Telegram-бота для саппорта.`
+- `[$grill-me](./SKILL.md) Прогриль мою идею: B2B SaaS для автоматизации отчётов.`
+- `Используй grill-me и пройди со мной архитектуру Telegram-бота для саппорта.`
 - `Давай grill-me режим перед тем как писать код.`
 
 ## Пример короткой сессии

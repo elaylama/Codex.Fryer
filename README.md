@@ -38,14 +38,17 @@
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --repo <ваш-github-логин>/CODEXFRYER \
-  --path .
+  --path . \
+  --name codexfryer
 ```
 
 ### Вариант 2. Через URL
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --url https://github.com/<ваш-github-логин>/CODEXFRYER/tree/main
+  --url https://github.com/<ваш-github-логин>/CODEXFRYER \
+  --path . \
+  --name codexfryer
 ```
 
 После установки перезапустите Codex, чтобы скилл появился в активном списке.
